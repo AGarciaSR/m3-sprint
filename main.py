@@ -42,7 +42,6 @@ def asigna_cuenta():
         password = genera_pass()
         telefono = ingresa_telefono(clientes[key]['nombre'])
         clientes[key].update({'username' : username, 'password' : password, 'telefono' : telefono})
-    print(clientes)
 
 # A partir de la llamada a la función "asisgna_cuenta" se realizarán los bucles necesarios
 asigna_cuenta()
